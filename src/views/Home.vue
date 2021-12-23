@@ -19,8 +19,7 @@ export default {
   data() {
     return {
       // your access token. Needed if you using Mapbox maps
-      accessToken:
-        "pk.eyJ1IjoiamFtaWUwNTEwIiwiYSI6ImNreGlqZ295MjBsN3AzMXF3YnhqYmpndmsifQ.sw_aNvmT2e2vN9TCBGayQg",
+      accessToken: process.env.VUE_APP_MAPTOKEN,
       // your map style
       mapStyle: "mapbox://styles/jamie0510/ckxijwvzj0mad15n4ckyxh580",
     };
